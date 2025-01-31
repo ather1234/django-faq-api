@@ -1,0 +1,14 @@
+//important requirements to install dependincies
+
+Django==4.1.7
+djangorestframework==3.14.0
+django-ckeditor==6.5.0
+redis==4.3.4
+googletrans==4.0.0-rc1
+psycopg2==2.9.3  # For PostgreSQL support (if using PostgreSQL)
+python-dotenv==0.21.0
+
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
